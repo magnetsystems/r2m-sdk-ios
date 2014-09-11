@@ -22,7 +22,7 @@ Change to the directory of your Xcode project, and Create and Edit your Podfile 
 Copy and paste the following commands into the Podfile.    
 
     platform :ios, '7.0'
-    pod 'MagnetMobileServer', :git => 'https://github.com/magnetsystems/rest2mobile-SDK-for-iOS.git'
+    pod 'MagnetMobileServer', :git => 'https://github.com/magnetsystems/r2m-sdk-ios.git'
     
 Install the SDK into your project by navigating to the project directory and executing the following command.
     
