@@ -1,19 +1,19 @@
-## Magnet Mobile Server SDK for iOS
+## rest2mobile SDK for iOS
 
-The Magnet Mobile Server SDK for iOS is licensed under the terms of the [Magnet Software License Agreement](http://www.magnet.com/resources/tos.html).  Please see [LICENSE](./LICENSE) file for full details.
+The rest2mobile SDK for iOS is licensed under the terms of the [Magnet Software License Agreement](http://www.magnet.com/resources/tos.html).  Please see [LICENSE](./LICENSE) file for full details.
 
 ### System Requirements
 1. Xcode 5.0.1
 2. CocoaPods
 
-### Import the Magnet Mobile Server SDK for iOS into your own iOS app
+### Import the rest2mobile SDK for iOS into your own iOS app
 
 Install CocoaPods if not yet installed.
 
     $ sudo gem install cocoapods
     $ pod setup
 
-Change to the directory of your Xcode project, and Create and Edit your Podfile and add Magnet Mobile Server:
+Change to the directory of your Xcode project, and Create and Edit your Podfile and add rest2mobile:
     
     $ cd /path/to/MyProject
     $ touch Podfile
