@@ -36,7 +36,4 @@
  */
 + (NSDictionary *)listAttributeTypes;
 
-//TODO: Remove me!
-+ (NSDictionary *)referenceAttributeTypes;
-
 @end
