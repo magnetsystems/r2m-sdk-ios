@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>--project-name</key>
+	<string>Rest2Mobile</string>
+	<key>--project-company</key>
+	<string>Magnet Systems, Inc</string>
+	<key>--company-id</key>
+	<string>com.magnet.iOS</string>
+	<key>--create-docset</key>
+	<true/>
+	<key>--install-docset</key>
+	<false/>
+	<key>--verbose</key>
+	<string>4</string>
+	<key>--logformat</key>
+	<integer>1</integer>
+	<key>--output</key>
+	<string>doc</string>
+</dict>
+</plist>

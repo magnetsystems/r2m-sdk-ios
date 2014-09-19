@@ -4,26 +4,59 @@
  
 #import <Foundation/Foundation.h>
 
+/**
+ These constants indicate the level of logging that is desired.
+ `MMLoggerLevelInfo` by default.
+ */
 typedef NS_ENUM(NSUInteger, MMLoggerLevel) {
+	/**
+	 Log nothing.
+	 */
     MMLoggerLevelOff,
+	/**
+	 Log everything.
+	 */
     MMLoggerLevelVerbose,
+	/**
+	 Log debug level messages and above.
+	 */
     MMLoggerLevelDebug,
+	/**
+	 Log information level messages and above.
+	 */
     MMLoggerLevelInfo,
+	/**
+	 Log warning level messages and above.
+	 */
     MMLoggerLevelWarn,
+	/**
+	 Log error level messages.
+	 */
     MMLoggerLevelError
 };
 
+/**
+ These constants indicate the type of logging that is desired.
+ `MMTTYLogging` by default.
+ */
 typedef NS_OPTIONS(NSInteger, MMLoggerOptions){
+	/**
+	 Log to TTY.
+	 */
     MMTTYLogging  = 1 << 0,
+	/**
+	 Log to a file.
+	 */
     MMFileLogging = 1 << 1,
 };
 
-/**
- `MMLogger` logs requests and responses made by AFNetworking, with an adjustable level of detail.
-
+/** 
+ `MMLogger` logs requests and responses made by Rest2Mobile, with an adjustable level of detail.
+ 
  Applications must enable the shared instance of `MMLogger` in `AppDelegate -application:didFinishLaunchingWithOptions:`:
-
+ 
         [[MMLogger sharedLogger] startLogging];
+
  */
 @interface MMLogger : NSObject
 
@@ -54,26 +87,46 @@ typedef NS_OPTIONS(NSInteger, MMLoggerOptions){
 
 /**
  Log a message with error level.
+
+ @param message The message to be logged.
+ @param ... A comma separated list of arguments to substitute into the format.
+
  */
 - (void)error:(NSString *)message, ... __attribute__ ((format (__NSString__, 1, 2)));
 
 /**
  Log a message with warning level.
+
+ @param message The message to be logged.
+ @param ... A comma separated list of arguments to substitute into the format.
+
  */
 - (void)warn:(NSString *)message, ... __attribute__ ((format (__NSString__, 1, 2)));
 
 /**
  Log a message with info level.
+ 
+ @param message The message to be logged.
+ @param ... A comma separated list of arguments to substitute into the format.
+
  */
 - (void)info:(NSString *)message, ... __attribute__ ((format (__NSString__, 1, 2)));
 
 /**
  Log a message with debug level.
+
+ @param message The message to be logged.
+ @param ... A comma separated list of arguments to substitute into the format.
+
  */
 - (void)debug:(NSString *)message, ... __attribute__ ((format (__NSString__, 1, 2)));
 
 /**
  Log a message with verbose level.
+ 
+ @param message The message to be logged.
+ @param ... A comma separated list of arguments to substitute into the format.
+
  */
 - (void)verbose:(NSString *)message, ... __attribute__ ((format (__NSString__, 1, 2)));
 
