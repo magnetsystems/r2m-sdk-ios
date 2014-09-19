@@ -8,6 +8,9 @@
  * MMController implementation.
  *
  */
+
+#import <Foundation/Foundation.h>
+
 @interface MMCall : NSOperation
 
 /**
