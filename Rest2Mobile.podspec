@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary            =  'Use rest2mobile iOS SDK to develop iOS applications that communicate with REST/JSON APIs.'
   s.homepage           =  'https://developer.magnet.com'
   s.author             =  { 'Magnet Systems, Inc.' => 'support@magnet.com' }
-  s.source             =  { :git => 'https://bitbucket.org/magneteng/magnet-sdk-ios.git', :tag=> 'v1.0.0', :submodules => true }
+  s.source             =  { :git => 'https://github.com/magnetsystems/r2m-sdk-ios.git', :tag=> '1.0.0', :submodules => true }
 
   s.platform = :ios, '7.0'
   s.requires_arc = true
