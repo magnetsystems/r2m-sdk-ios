@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name               =  'Rest2Mobile'
-  s.version            =  '1.0.0'
+  s.version            =  '1.0.1'
   s.license            =  { :type => 'Commercial', :text => 'See http://www.magnet.com/resources/tos.html' }
   s.summary            =  'Use rest2mobile iOS SDK to develop iOS applications that communicate with REST/JSON APIs.'
   s.homepage           =  'https://developer.magnet.com'
