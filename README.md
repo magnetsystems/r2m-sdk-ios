@@ -44,7 +44,7 @@ To build Rest2Mobile from source and run the tests, follow these steps:
 Rest2Mobile includes a suite of unit tests within the Tests subdirectory. In order to run the unit tests, you must install the testing dependencies via [CocoaPods](http://cocoapods.org/):
 
     $ git clone https://github.com/magnetsystems/r2m-sdk-ios.git
-    $ cd Tests
+    $ cd r2m-sdk-ios/Tests
     $ pod install
 
 Once testing dependencies are installed, you can execute the test suite via the 'iOS Tests' scheme within Xcode.

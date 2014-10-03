@@ -1,6 +1,187 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:Rest2Mobile"
+      name = "Rest2Mobile">
+      <FileRef
+         location = "group:Rest2Mobile.h">
+      </FileRef>
+      <Group
+         location = "group:Categories"
+         name = "Categories">
+         <FileRef
+            location = "group:NSDictionary+MMUtilities.h">
+         </FileRef>
+         <FileRef
+            location = "group:NSDictionary+MMUtilities.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Controller"
+         name = "Controller">
+         <Group
+            location = "group:Configuration"
+            name = "Configuration">
+            <FileRef
+               location = "group:MMControllerConfiguration.h">
+            </FileRef>
+            <FileRef
+               location = "group:MMControllerConfiguration.m">
+            </FileRef>
+            <FileRef
+               location = "group:MMControllerConfigurationRegistry.h">
+            </FileRef>
+            <FileRef
+               location = "group:MMControllerConfigurationRegistry.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:MMCall.h">
+         </FileRef>
+         <FileRef
+            location = "group:MMCall.m">
+         </FileRef>
+         <FileRef
+            location = "group:MMController.h">
+         </FileRef>
+         <FileRef
+            location = "group:MMController.m">
+         </FileRef>
+         <FileRef
+            location = "group:MMController_Private.h">
+         </FileRef>
+         <Group
+            location = "group:Schema"
+            name = "Schema">
+            <FileRef
+               location = "group:MMControllerInputType.h">
+            </FileRef>
+            <FileRef
+               location = "group:MMControllerMethod.h">
+            </FileRef>
+            <FileRef
+               location = "group:MMControllerMethod.m">
+            </FileRef>
+            <FileRef
+               location = "group:MMControllerMethod_Private.h">
+            </FileRef>
+            <FileRef
+               location = "group:MMControllerParam.h">
+            </FileRef>
+            <FileRef
+               location = "group:MMControllerParam.m">
+            </FileRef>
+            <FileRef
+               location = "group:MMControllerParam_Private.h">
+            </FileRef>
+            <FileRef
+               location = "group:MMControllerReturnType.h">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:Logging"
+         name = "Logging">
+         <FileRef
+            location = "group:MMLogger.h">
+         </FileRef>
+         <FileRef
+            location = "group:MMLogger.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Serialization"
+         name = "Serialization">
+         <Group
+            location = "group:DataType"
+            name = "DataType">
+            <FileRef
+               location = "group:MMResourceNode_Private.h">
+            </FileRef>
+            <FileRef
+               location = "group:MMResourceNode.h">
+            </FileRef>
+            <FileRef
+               location = "group:MMResourceNode.m">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Serializer"
+            name = "Serializer">
+            <FileRef
+               location = "group:MMStringRequestSerializer.h">
+            </FileRef>
+            <FileRef
+               location = "group:MMStringRequestSerializer.m">
+            </FileRef>
+            <FileRef
+               location = "group:MMStringResponseSerializer.h">
+            </FileRef>
+            <FileRef
+               location = "group:MMStringResponseSerializer.m">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Transformer"
+            name = "Transformer">
+            <FileRef
+               location = "group:MMValueTransformer.h">
+            </FileRef>
+            <FileRef
+               location = "group:MMValueTransformer.m">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:Transport"
+         name = "Transport">
+         <FileRef
+            location = "group:MMTransporter.h">
+         </FileRef>
+         <FileRef
+            location = "group:MMTransporter.m">
+         </FileRef>
+         <Group
+            location = "group:REST"
+            name = "REST">
+            <FileRef
+               location = "group:MMHTTPUtilities.h">
+            </FileRef>
+            <FileRef
+               location = "group:MMHTTPUtilities.m">
+            </FileRef>
+            <FileRef
+               location = "group:MMRestApiCall.h">
+            </FileRef>
+            <FileRef
+               location = "group:MMRestApiCall.m">
+            </FileRef>
+            <FileRef
+               location = "group:MMHTTPRequestOperationManager.h">
+            </FileRef>
+            <FileRef
+               location = "group:MMHTTPRequestOperationManager.m">
+            </FileRef>
+            <FileRef
+               location = "group:MMRestTransporter.h">
+            </FileRef>
+            <FileRef
+               location = "group:MMRestTransporter.m">
+            </FileRef>
+            <FileRef
+               location = "group:MMRestTransporter_Private.h">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:Utilities"
+         name = "Utilities">
+         <FileRef
+            location = "group:MMAssert.h">
+         </FileRef>
+      </Group>
+   </Group>
    <FileRef
       location = "group:Tests/Rest2Mobile Tests.xcodeproj">
    </FileRef>
