@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StackOverflow</key>
+	<dict>
+		<key>BaseURL</key>
+		<string>http://stackoverflow.com</string>
+	</dict>
+	<key>GitHub</key>
+	<dict>
+		<key>BaseURL</key>
+		<string>https://github.com</string>
+		<key>TimeoutInterval</key>
+		<integer>3</integer>
+		<key>AllowInvalidCertificates</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

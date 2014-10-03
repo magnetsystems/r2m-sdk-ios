@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21026FFD19DA593400C888CC /* MMControllerMethodSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 21026FFC19DA593400C888CC /* MMControllerMethodSpec.m */; };
+		21026FFF19DA5FF900C888CC /* MMControllerParamSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 21026FFE19DA5FF900C888CC /* MMControllerParamSpec.m */; };
+		211AE26619D38B5D00628344 /* GOOGLEDistanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 211AE25A19D38B5D00628344 /* GOOGLEDistanceController.m */; };
+		211AE26719D38B5D00628344 /* GOOGLEDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 211AE25D19D38B5D00628344 /* GOOGLEDistance.m */; };
+		211AE26819D38B5D00628344 /* GOOGLEDistanceResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 211AE25F19D38B5D00628344 /* GOOGLEDistanceResult.m */; };
+		211AE26919D38B5D00628344 /* GOOGLEDuration.m in Sources */ = {isa = PBXBuildFile; fileRef = 211AE26119D38B5D00628344 /* GOOGLEDuration.m */; };
+		211AE26A19D38B5D00628344 /* GOOGLEElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 211AE26319D38B5D00628344 /* GOOGLEElement.m */; };
+		211AE26B19D38B5D00628344 /* GOOGLERow.m in Sources */ = {isa = PBXBuildFile; fileRef = 211AE26519D38B5D00628344 /* GOOGLERow.m */; };
+		212FDDD219DB34EF000C4499 /* MMHTTPRequestOperationManagerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 212FDDD119DB34EF000C4499 /* MMHTTPRequestOperationManagerSpec.m */; };
+		212FDDD419DB77B8000C4499 /* MMCallSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 212FDDD319DB77B8000C4499 /* MMCallSpec.m */; };
+		212FDDD619DB9297000C4499 /* MMResourceNodeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 212FDDD519DB9297000C4499 /* MMResourceNodeSpec.m */; };
+		213D874A19DBCC5C00D9F666 /* TESTNodeWithAllTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 213D874919DBCC5C00D9F666 /* TESTNodeWithAllTypes.m */; };
+		213D874C19DC499A00D9F666 /* MMValueTransformerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 213D874B19DC499A00D9F666 /* MMValueTransformerSpec.m */; };
+		219CB5C819D674EB000A5544 /* NSDictionaryUtilitiesSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 219CB5C719D674EB000A5544 /* NSDictionaryUtilitiesSpec.m */; };
+		219CB5CC19D6789D000A5544 /* MMHTTPUtilitiesSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 219CB5CB19D6789D000A5544 /* MMHTTPUtilitiesSpec.m */; };
+		219CB5CE19D683AB000A5544 /* MMTransporterSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 219CB5CD19D683AB000A5544 /* MMTransporterSpec.m */; };
+		219CB5D019D6906B000A5544 /* MMRestApiCallSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 219CB5CF19D6906B000A5544 /* MMRestApiCallSpec.m */; };
+		219CB68419D8E0EE000A5544 /* MMStringRequestSerializerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 219CB68219D8E0EE000A5544 /* MMStringRequestSerializerSpec.m */; };
+		219CB68519D8E0EE000A5544 /* MMStringResponseSerializerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 219CB68319D8E0EE000A5544 /* MMStringResponseSerializerSpec.m */; };
+		219CB68719D91189000A5544 /* MMAssertSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 219CB68619D91189000A5544 /* MMAssertSpec.m */; };
+		219CB68919D91CFF000A5544 /* MMControllerConfigurationSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 219CB68819D91CFF000A5544 /* MMControllerConfigurationSpec.m */; };
+		21C0E95E19DCA84F00E78482 /* MMControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C0E95D19DCA84F00E78482 /* MMControllerSpec.m */; };
+		21C6910819D92AAA00FFBCD9 /* ControllerConfigurations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21C6910719D92AAA00FFBCD9 /* ControllerConfigurations.plist */; };
+		21C6910A19D9A6FE00FFBCD9 /* MMControllerConfigurationRegistrySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C6910919D9A6FE00FFBCD9 /* MMControllerConfigurationRegistrySpec.m */; };
+		F360795E458245CD934FDA75 /* libPods-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE12C45213244D38F48C0C4 /* libPods-ios.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1518C5DEB47BAE914A2A6603 /* Pods-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios/Pods-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		21026FFC19DA593400C888CC /* MMControllerMethodSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMControllerMethodSpec.m; sourceTree = "<group>"; };
+		21026FFE19DA5FF900C888CC /* MMControllerParamSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMControllerParamSpec.m; sourceTree = "<group>"; };
+		211AE25919D38B5D00628344 /* GOOGLEDistanceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOOGLEDistanceController.h; sourceTree = "<group>"; };
+		211AE25A19D38B5D00628344 /* GOOGLEDistanceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOOGLEDistanceController.m; sourceTree = "<group>"; };
+		211AE25C19D38B5D00628344 /* GOOGLEDistance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOOGLEDistance.h; sourceTree = "<group>"; };
+		211AE25D19D38B5D00628344 /* GOOGLEDistance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOOGLEDistance.m; sourceTree = "<group>"; };
+		211AE25E19D38B5D00628344 /* GOOGLEDistanceResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOOGLEDistanceResult.h; sourceTree = "<group>"; };
+		211AE25F19D38B5D00628344 /* GOOGLEDistanceResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOOGLEDistanceResult.m; sourceTree = "<group>"; };
+		211AE26019D38B5D00628344 /* GOOGLEDuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOOGLEDuration.h; sourceTree = "<group>"; };
+		211AE26119D38B5D00628344 /* GOOGLEDuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOOGLEDuration.m; sourceTree = "<group>"; };
+		211AE26219D38B5D00628344 /* GOOGLEElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOOGLEElement.h; sourceTree = "<group>"; };
+		211AE26319D38B5D00628344 /* GOOGLEElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOOGLEElement.m; sourceTree = "<group>"; };
+		211AE26419D38B5D00628344 /* GOOGLERow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOOGLERow.h; sourceTree = "<group>"; };
+		211AE26519D38B5D00628344 /* GOOGLERow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOOGLERow.m; sourceTree = "<group>"; };
+		212FDDD119DB34EF000C4499 /* MMHTTPRequestOperationManagerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMHTTPRequestOperationManagerSpec.m; sourceTree = "<group>"; };
+		212FDDD319DB77B8000C4499 /* MMCallSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMCallSpec.m; sourceTree = "<group>"; };
+		212FDDD519DB9297000C4499 /* MMResourceNodeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMResourceNodeSpec.m; sourceTree = "<group>"; };
+		213D874819DBCC5C00D9F666 /* TESTNodeWithAllTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TESTNodeWithAllTypes.h; sourceTree = "<group>"; };
+		213D874919DBCC5C00D9F666 /* TESTNodeWithAllTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TESTNodeWithAllTypes.m; sourceTree = "<group>"; };
+		213D874B19DC499A00D9F666 /* MMValueTransformerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMValueTransformerSpec.m; sourceTree = "<group>"; };
+		214EEBC519D23F77000E1A4A /* iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		214EEBC919D23F77000E1A4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		219CB5C719D674EB000A5544 /* NSDictionaryUtilitiesSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryUtilitiesSpec.m; sourceTree = "<group>"; };
+		219CB5CB19D6789D000A5544 /* MMHTTPUtilitiesSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMHTTPUtilitiesSpec.m; sourceTree = "<group>"; };
+		219CB5CD19D683AB000A5544 /* MMTransporterSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMTransporterSpec.m; sourceTree = "<group>"; };
+		219CB5CF19D6906B000A5544 /* MMRestApiCallSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMRestApiCallSpec.m; sourceTree = "<group>"; };
+		219CB68219D8E0EE000A5544 /* MMStringRequestSerializerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMStringRequestSerializerSpec.m; sourceTree = "<group>"; };
+		219CB68319D8E0EE000A5544 /* MMStringResponseSerializerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMStringResponseSerializerSpec.m; sourceTree = "<group>"; };
+		219CB68619D91189000A5544 /* MMAssertSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAssertSpec.m; sourceTree = "<group>"; };
+		219CB68819D91CFF000A5544 /* MMControllerConfigurationSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMControllerConfigurationSpec.m; sourceTree = "<group>"; };
+		21C0E95D19DCA84F00E78482 /* MMControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMControllerSpec.m; sourceTree = "<group>"; };
+		21C6910719D92AAA00FFBCD9 /* ControllerConfigurations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ControllerConfigurations.plist; sourceTree = "<group>"; };
+		21C6910919D9A6FE00FFBCD9 /* MMControllerConfigurationRegistrySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMControllerConfigurationRegistrySpec.m; sourceTree = "<group>"; };
+		9AE12C45213244D38F48C0C4 /* libPods-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C14B116F34DE65CBBD4192AF /* Pods-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios/Pods-ios.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		214EEBC219D23F77000E1A4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F360795E458245CD934FDA75 /* libPods-ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		211AE25819D38B5D00628344 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				211AE25919D38B5D00628344 /* GOOGLEDistanceController.h */,
+				211AE25A19D38B5D00628344 /* GOOGLEDistanceController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		211AE25B19D38B5D00628344 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				211AE25C19D38B5D00628344 /* GOOGLEDistance.h */,
+				211AE25D19D38B5D00628344 /* GOOGLEDistance.m */,
+				211AE25E19D38B5D00628344 /* GOOGLEDistanceResult.h */,
+				211AE25F19D38B5D00628344 /* GOOGLEDistanceResult.m */,
+				211AE26019D38B5D00628344 /* GOOGLEDuration.h */,
+				211AE26119D38B5D00628344 /* GOOGLEDuration.m */,
+				211AE26219D38B5D00628344 /* GOOGLEElement.h */,
+				211AE26319D38B5D00628344 /* GOOGLEElement.m */,
+				211AE26419D38B5D00628344 /* GOOGLERow.h */,
+				211AE26519D38B5D00628344 /* GOOGLERow.m */,
+				213D874819DBCC5C00D9F666 /* TESTNodeWithAllTypes.h */,
+				213D874919DBCC5C00D9F666 /* TESTNodeWithAllTypes.m */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		214EEBBA19D23E92000E1A4A = {
+			isa = PBXGroup;
+			children = (
+				211AE25819D38B5D00628344 /* Controllers */,
+				211AE25B19D38B5D00628344 /* Nodes */,
+				216DAD9819D287F500FFAAEC /* Tests */,
+				214EEBC719D23F77000E1A4A /* iOS Tests */,
+				214EEBC619D23F77000E1A4A /* Products */,
+				C9A3B55CDD2E4898BCBC5E22 /* Frameworks */,
+				CECECF23568529F352884B7C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		214EEBC619D23F77000E1A4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				214EEBC519D23F77000E1A4A /* iOS Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		214EEBC719D23F77000E1A4A /* iOS Tests */ = {
+			isa = PBXGroup;
+			children = (
+				214EEBC819D23F77000E1A4A /* Supporting Files */,
+			);
+			path = "iOS Tests";
+			sourceTree = "<group>";
+		};
+		214EEBC819D23F77000E1A4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				214EEBC919D23F77000E1A4A /* Info.plist */,
+				21C6910719D92AAA00FFBCD9 /* ControllerConfigurations.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		216DAD9819D287F500FFAAEC /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				219CB5D919D74DF6000A5544 /* Utilities */,
+				219CB5D519D74DEC000A5544 /* Serialization */,
+				219CB5D419D74DDE000A5544 /* Logging */,
+				219CB5D119D74DCF000A5544 /* Controller */,
+				219CB5C919D6789D000A5544 /* Transport */,
+				219CB5C619D674EB000A5544 /* Categories */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		219CB5C619D674EB000A5544 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				219CB5C719D674EB000A5544 /* NSDictionaryUtilitiesSpec.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		219CB5C919D6789D000A5544 /* Transport */ = {
+			isa = PBXGroup;
+			children = (
+				219CB5CD19D683AB000A5544 /* MMTransporterSpec.m */,
+				219CB5CA19D6789D000A5544 /* REST */,
+			);
+			path = Transport;
+			sourceTree = "<group>";
+		};
+		219CB5CA19D6789D000A5544 /* REST */ = {
+			isa = PBXGroup;
+			children = (
+				219CB5CF19D6906B000A5544 /* MMRestApiCallSpec.m */,
+				219CB5CB19D6789D000A5544 /* MMHTTPUtilitiesSpec.m */,
+				212FDDD119DB34EF000C4499 /* MMHTTPRequestOperationManagerSpec.m */,
+			);
+			path = REST;
+			sourceTree = "<group>";
+		};
+		219CB5D119D74DCF000A5544 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				219CB5D219D74DCF000A5544 /* Configuration */,
+				219CB5D319D74DCF000A5544 /* Schema */,
+				212FDDD319DB77B8000C4499 /* MMCallSpec.m */,
+				21C0E95D19DCA84F00E78482 /* MMControllerSpec.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		219CB5D219D74DCF000A5544 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				219CB68819D91CFF000A5544 /* MMControllerConfigurationSpec.m */,
+				21C6910919D9A6FE00FFBCD9 /* MMControllerConfigurationRegistrySpec.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		219CB5D319D74DCF000A5544 /* Schema */ = {
+			isa = PBXGroup;
+			children = (
+				21026FFC19DA593400C888CC /* MMControllerMethodSpec.m */,
+				21026FFE19DA5FF900C888CC /* MMControllerParamSpec.m */,
+			);
+			path = Schema;
+			sourceTree = "<group>";
+		};
+		219CB5D419D74DDE000A5544 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		219CB5D519D74DEC000A5544 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				219CB5D619D74DEC000A5544 /* DataType */,
+				219CB5D719D74DEC000A5544 /* Serializer */,
+				219CB5D819D74DEC000A5544 /* Transformer */,
+			);
+			path = Serialization;
+			sourceTree = "<group>";
+		};
+		219CB5D619D74DEC000A5544 /* DataType */ = {
+			isa = PBXGroup;
+			children = (
+				212FDDD519DB9297000C4499 /* MMResourceNodeSpec.m */,
+			);
+			path = DataType;
+			sourceTree = "<group>";
+		};
+		219CB5D719D74DEC000A5544 /* Serializer */ = {
+			isa = PBXGroup;
+			children = (
+				219CB68219D8E0EE000A5544 /* MMStringRequestSerializerSpec.m */,
+				219CB68319D8E0EE000A5544 /* MMStringResponseSerializerSpec.m */,
+			);
+			path = Serializer;
+			sourceTree = "<group>";
+		};
+		219CB5D819D74DEC000A5544 /* Transformer */ = {
+			isa = PBXGroup;
+			children = (
+				213D874B19DC499A00D9F666 /* MMValueTransformerSpec.m */,
+			);
+			path = Transformer;
+			sourceTree = "<group>";
+		};
+		219CB5D919D74DF6000A5544 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				219CB68619D91189000A5544 /* MMAssertSpec.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C9A3B55CDD2E4898BCBC5E22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AE12C45213244D38F48C0C4 /* libPods-ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CECECF23568529F352884B7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1518C5DEB47BAE914A2A6603 /* Pods-ios.debug.xcconfig */,
+				C14B116F34DE65CBBD4192AF /* Pods-ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		214EEBC419D23F77000E1A4A /* iOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 214EEBCE19D23F77000E1A4A /* Build configuration list for PBXNativeTarget "iOS Tests" */;
+			buildPhases = (
+				0156CD3136764A0E85D504C2 /* Check Pods Manifest.lock */,
+				214EEBC119D23F77000E1A4A /* Sources */,
+				214EEBC219D23F77000E1A4A /* Frameworks */,
+				214EEBC319D23F77000E1A4A /* Resources */,
+				A0034E022E20484C92F4795B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Tests";
+			productName = "iOS Tests";
+			productReference = 214EEBC519D23F77000E1A4A /* iOS Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		214EEBBB19D23E92000E1A4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					214EEBC419D23F77000E1A4A = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 214EEBBE19D23E92000E1A4A /* Build configuration list for PBXProject "Rest2Mobile Tests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 214EEBBA19D23E92000E1A4A;
+			productRefGroup = 214EEBC619D23F77000E1A4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				214EEBC419D23F77000E1A4A /* iOS Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		214EEBC319D23F77000E1A4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C6910819D92AAA00FFBCD9 /* ControllerConfigurations.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0156CD3136764A0E85D504C2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0034E022E20484C92F4795B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios/Pods-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		214EEBC119D23F77000E1A4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219CB5C819D674EB000A5544 /* NSDictionaryUtilitiesSpec.m in Sources */,
+				219CB68719D91189000A5544 /* MMAssertSpec.m in Sources */,
+				219CB5D019D6906B000A5544 /* MMRestApiCallSpec.m in Sources */,
+				219CB5CC19D6789D000A5544 /* MMHTTPUtilitiesSpec.m in Sources */,
+				211AE26819D38B5D00628344 /* GOOGLEDistanceResult.m in Sources */,
+				211AE26719D38B5D00628344 /* GOOGLEDistance.m in Sources */,
+				212FDDD619DB9297000C4499 /* MMResourceNodeSpec.m in Sources */,
+				21026FFF19DA5FF900C888CC /* MMControllerParamSpec.m in Sources */,
+				21C0E95E19DCA84F00E78482 /* MMControllerSpec.m in Sources */,
+				21C6910A19D9A6FE00FFBCD9 /* MMControllerConfigurationRegistrySpec.m in Sources */,
+				212FDDD219DB34EF000C4499 /* MMHTTPRequestOperationManagerSpec.m in Sources */,
+				219CB5CE19D683AB000A5544 /* MMTransporterSpec.m in Sources */,
+				219CB68419D8E0EE000A5544 /* MMStringRequestSerializerSpec.m in Sources */,
+				213D874C19DC499A00D9F666 /* MMValueTransformerSpec.m in Sources */,
+				211AE26B19D38B5D00628344 /* GOOGLERow.m in Sources */,
+				212FDDD419DB77B8000C4499 /* MMCallSpec.m in Sources */,
+				219CB68919D91CFF000A5544 /* MMControllerConfigurationSpec.m in Sources */,
+				219CB68519D8E0EE000A5544 /* MMStringResponseSerializerSpec.m in Sources */,
+				211AE26919D38B5D00628344 /* GOOGLEDuration.m in Sources */,
+				213D874A19DBCC5C00D9F666 /* TESTNodeWithAllTypes.m in Sources */,
+				21026FFD19DA593400C888CC /* MMControllerMethodSpec.m in Sources */,
+				211AE26A19D38B5D00628344 /* GOOGLEElement.m in Sources */,
+				211AE26619D38B5D00628344 /* GOOGLEDistanceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		214EEBBF19D23E92000E1A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		214EEBC019D23E92000E1A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		214EEBCC19D23F77000E1A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1518C5DEB47BAE914A2A6603 /* Pods-ios.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "iOS Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		214EEBCD19D23F77000E1A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C14B116F34DE65CBBD4192AF /* Pods-ios.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "iOS Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		214EEBBE19D23E92000E1A4A /* Build configuration list for PBXProject "Rest2Mobile Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214EEBBF19D23E92000E1A4A /* Debug */,
+				214EEBC019D23E92000E1A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		214EEBCE19D23F77000E1A4A /* Build configuration list for PBXNativeTarget "iOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214EEBCC19D23F77000E1A4A /* Debug */,
+				214EEBCD19D23F77000E1A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 214EEBBB19D23E92000E1A4A /* Project object */;
+}
