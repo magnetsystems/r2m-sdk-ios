@@ -2,8 +2,8 @@ Pod::Spec.new do |s|
   s.name     = 'Rest2Mobile'
   s.version  = '1.1.0'
   s.license  = 'Apache License 2.0'
-  s.summary  = 'A delightful iOS and OS X networking framework.'
-  s.homepage = 'Use rest2mobile iOS SDK to develop iOS applications that communicate with REST/JSON APIs.'
+  s.summary  = 'Use rest2mobile iOS SDK to develop iOS applications that communicate with REST/JSON APIs.'
+  s.homepage = 'https://developer.magnet.com'
   #s.social_media_url = 'https://developer.magnet.com'
   s.authors  = { 'Magnet Systems, Inc.' => 'support@magnet.com' }
   s.source   = { :git => 'https://github.com/magnetsystems/r2m-sdk-ios.git', :tag => "1.1.0", :submodules => true }
