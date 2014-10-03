@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/priteshshah1983/r2m-sdk-ios.svg)](https://travis-ci.org/priteshshah1983/r2m-sdk-ios)
+[![Build Status](https://travis-ci.org/magnetsystems/r2m-sdk-ios.svg?branch=master)](https://travis-ci.org/magnetsystems/r2m-sdk-ios)
 # rest2mobile SDK for iOS
 
 ## System Requirements
