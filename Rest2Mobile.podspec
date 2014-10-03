@@ -34,12 +34,15 @@ Pod::Spec.new do |s|
     ss.dependency     'AFNetworking', '~> 2.2'
     ss.dependency     'Mantle', '~> 1.4'
   	ss.dependency 'Rest2Mobile/Logging'
+	ss.dependency 'Rest2Mobile/Utilities'
     ss.source_files = 'Rest2Mobile/Serialization/*/*.{h,m}'
   end
   
   s.subspec 'Transport' do |ss|
     ss.dependency     'AFNetworking', '~> 2.2'
+	ss.dependency     'Mantle', '~> 1.4'
 	ss.dependency 'Rest2Mobile/Logging'
+	ss.dependency 'Rest2Mobile/Controller'
     ss.source_files = 'Rest2Mobile/Transport/*/*.{h,m}', 'Rest2Mobile/Transport/*.{h,m}'
   end
   
