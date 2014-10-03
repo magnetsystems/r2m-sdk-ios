@@ -26,7 +26,7 @@ Copy and paste the following commands into the Podfile.
 
 ```ruby
 platform :ios, '7.0'
-pod 'Rest2Mobile', '~> 1.0'
+pod 'Rest2Mobile', '~> 1.1'
 ```
     
 Install the SDK into your project by navigating to the project directory and executing the following command.
