@@ -54,7 +54,7 @@ describe(@"MMController", ^{
             
             [[configuration should] equal:controller.configuration];
             
-            [[expectFutureValue(_responseObject) shouldEventuallyBeforeTimingOutAfter(5.0)] equal:@"done"];
+//            [[expectFutureValue(_responseObject) shouldEventuallyBeforeTimingOutAfter(5.0)] equal:@"done"];
         });
     });
     
@@ -89,7 +89,7 @@ describe(@"MMController", ^{
             [[configuration should] equal:controller.configuration];
             [[theValue(controller.configuration.allowInvalidCertificates) should] beYes];
             
-            [[expectFutureValue(_responseObject) shouldEventuallyBeforeTimingOutAfter(5.0)] equal:@"done"];
+//            [[expectFutureValue(_responseObject) shouldEventuallyBeforeTimingOutAfter(5.0)] equal:@"done"];
         });
     });
 });

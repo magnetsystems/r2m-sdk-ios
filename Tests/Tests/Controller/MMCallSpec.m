@@ -47,7 +47,7 @@ describe(@"MMCall", ^{
                 [queue addOperation:call];
                 [call cancel];
                 [[theValue(call.isCancelled) should] beYes];
-                [[expectFutureValue(_responseObject) shouldEventuallyBeforeTimingOutAfter(5.0)] beNil];
+//                [[expectFutureValue(_responseObject) shouldEventuallyBeforeTimingOutAfter(5.0)] beNil];
             });
         });
         
