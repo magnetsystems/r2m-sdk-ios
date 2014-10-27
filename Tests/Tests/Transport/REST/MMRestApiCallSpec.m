@@ -45,6 +45,7 @@ describe(@"MMRestApiCall", ^{
                 MMRestApiCall *restApiCall = [MMRestApiCall restApiCall];
                 restApiCall.returnsString = NO;
                 [[[restApiCall responseSerializer] should] beKindOfClass:AFJSONResponseSerializer.class];
+                [[[[restApiCall responseSerializer] acceptableContentTypes] should] contain:@"text/plain"];
             });
         });
     });

@@ -38,6 +38,7 @@
         responseSerializer = [MMStringResponseSerializer serializer];
     } else {
         responseSerializer = [AFJSONResponseSerializer serializer];
+        responseSerializer.acceptableContentTypes = [responseSerializer.acceptableContentTypes setByAddingObject:@"text/plain"];
     }
     return responseSerializer;
 }
