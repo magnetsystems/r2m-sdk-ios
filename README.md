@@ -17,20 +17,25 @@ Install CocoaPods if not yet installed.
     $ pod setup
 
 Change to the directory of your Xcode project, and Create and Edit your Podfile and add rest2mobile:
-    
+
     $ cd /path/to/MyProject
     $ touch Podfile
     $ open Podfile
 
-Copy and paste the following commands into the Podfile.    
+Copy and paste the following commands into the Podfile.
 
 ```ruby
 platform :ios, '7.0'
 pod 'Rest2Mobile', '~> 1.1'
+
+# Add Kiwi as an exclusive dependency for the AmazingAppTests target
+target :AmazingAppTests, :exclusive => true do
+  pod 'Kiwi'
+end
 ```
-    
+
 Install the SDK into your project by navigating to the project directory and executing the following command.
-    
+
     $ pod install
 
 Open your project in Xcode from the .xcworkspace file (not the usual project file).
