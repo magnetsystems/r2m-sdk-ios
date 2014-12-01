@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'Rest2Mobile'
-  s.version  = '1.1.2'
+  s.version  = '1.1.3'
   s.license  = 'Apache License, Version 2.0'
   s.summary  = 'Use rest2mobile iOS SDK to develop iOS applications that communicate with REST/JSON APIs.'
   s.homepage = 'https://developer.magnet.com'
@@ -38,20 +38,20 @@ Pod::Spec.new do |s|
     ss.source_files = 'Rest2Mobile/Serialization/*/*.{h,m}'
   end
 
-  s.subspec 'Transport' do |ss|
-    ss.dependency     'AFNetworking', '~> 2.2'
-	ss.dependency     'Mantle', '~> 1.4'
-	ss.dependency 'Rest2Mobile/Logging'
-	ss.dependency 'Rest2Mobile/Controller'
-    ss.source_files = 'Rest2Mobile/Transport/*/*.{h,m}', 'Rest2Mobile/Transport/*.{h,m}'
-  end
+  # s.subspec 'Transport' do |ss|
+  #   ss.dependency     'AFNetworking', '~> 2.2'
+	# ss.dependency     'Mantle', '~> 1.4'
+	# ss.dependency 'Rest2Mobile/Logging'
+	# ss.dependency 'Rest2Mobile/Controller'
+  #   ss.source_files = 'Rest2Mobile/Transport/*/*.{h,m}', 'Rest2Mobile/Transport/*.{h,m}'
+  # end
 
   s.subspec 'Controller' do |ss|
   	ss.dependency 'Rest2Mobile/Categories'
 	ss.dependency 'Rest2Mobile/Logging'
 	ss.dependency 'Rest2Mobile/Serialization'
-	ss.dependency 'Rest2Mobile/Transport'
+	# ss.dependency 'Rest2Mobile/Transport'
 	ss.dependency 'Rest2Mobile/Utilities'
-    ss.source_files = 'Rest2Mobile/Controller/*/*.{h,m}', 'Rest2Mobile/Controller/*.{h,m}'
+    ss.source_files = 'Rest2Mobile/Controller/*/*.{h,m}', 'Rest2Mobile/Controller/*.{h,m}', 'Rest2Mobile/Transport/*/*.{h,m}', 'Rest2Mobile/Transport/*.{h,m}'
   end
 end
