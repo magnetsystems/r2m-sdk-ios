@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://developer.magnet.com'
   #s.social_media_url = 'https://developer.magnet.com'
   s.authors  = { 'Magnet Systems, Inc.' => 'support@magnet.com' }
-  s.source   = { :git => 'https://github.com/magnetsystems/r2m-sdk-ios.git', :tag => "1.1.2", :submodules => true }
+  s.source   = { :git => 'https://github.com/magnetsystems/r2m-sdk-ios.git', :tag => "1.1.3", :submodules => true }
   s.requires_arc = true
 
   s.ios.deployment_target = '7.0'
