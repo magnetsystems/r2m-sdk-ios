@@ -78,11 +78,15 @@ typedef enum {
                 NSMutableDictionary *mutableUserInfo = [error.userInfo mutableCopy];
                 id errorResponse = mutableUserInfo[AFNetworkingOperationFailingURLResponseErrorKey];
                 [mutableUserInfo removeObjectForKey:AFNetworkingOperationFailingURLResponseErrorKey];
-                mutableUserInfo[MMControllerErrorDomainFailingResponseErrorKey] = errorResponse;
-
+                if (errorResponse) {
+                    mutableUserInfo[MMControllerErrorDomainFailingResponseErrorKey] = errorResponse;
+                }
+                
                 id errorResponseData = mutableUserInfo[AFNetworkingOperationFailingURLResponseDataErrorKey];
                 [mutableUserInfo removeObjectForKey:AFNetworkingOperationFailingURLResponseDataErrorKey];
-                mutableUserInfo[MMControllerErrorDomainFailingResponseDataErrorKey] = errorResponseData;
+                if (errorResponseData) {
+                    mutableUserInfo[MMControllerErrorDomainFailingResponseDataErrorKey] = errorResponseData;
+                }
 
                 NSError *magnetControllerError = [[NSError alloc] initWithDomain:MMControllerErrorDomain
                                                                             code:error.code
